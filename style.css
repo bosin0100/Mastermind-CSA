@@ -1,0 +1,105 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+body {
+  background: lightblue;
+}
+.screen {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.winOrLose{
+  display: none;
+  flex-grow: 1;
+}
+h1{
+  display: none;
+  margin: auto;
+}
+.reloadButton{
+  display: none;
+  margin: auto;
+  background: green;
+  padding: 20px;
+  border-radius: 10px;
+  font-family:
+}
+.line {
+  flex-grow: 1;
+  display: none;
+}
+.slot {
+  margin: auto;
+  padding: 50px;
+  background: gray;
+  border-radius: 10px;
+  border: 2px solid lightblue;
+}
+.answer{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background: gray;
+  border-radius: 10px;
+}
+.answerRow{
+  display: flex;
+  height: 20px;
+  width: 40px;
+}
+.answerPeg{
+  flex-grow: 1;
+}
+.answerPeg1{
+  border-radius: 10px 0px 0px 0px;
+}
+.answerPeg2{
+  border-radius: 0px 10px 0px 0px;
+}
+.answerPeg3{
+  border-radius: 0px 0px 0px 10px;
+}
+.answerPeg4{
+  border-radius: 0px 0px 10px 0px;
+}
+.allColorTabs {
+  display: flex;
+  flex-direction: column;
+  min-width: 10%;
+}
+.tab {
+  flex-grow: 1;
+  display: flex;
+}
+.tab > div {
+  margin: auto;
+}
+.tab {
+  border: 1px black solid;
+  border-radius: 0px 5px 5px 0px;
+}
+.redtab{
+  background: red;
+}
+.bluetab{
+  background: blue;
+}
+.greentab{
+  background: green;
+}
+.yellowtab{
+  background: yellow;
+}
+.blacktab{
+  background: black;
+}
+.whitetab{
+  background: white;
+}
